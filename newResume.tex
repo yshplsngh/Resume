@@ -1,0 +1,255 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Yashpal Singh} \\ \vspace{1pt}
+    \small Krishna Nagar, Mathura, Uttar Pradesh, 281001\\ \vspace{5pt}
+    \small ~ \href{https://yshplsngh.in}{\raisebox{-0.2\height}\faLink\  \underline{yshplsngh.in}} ~
+    \small ~ \href{mailto:yashpal9rx@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{yashpal9rx@gmail.com}} ~ 
+    % \href{https://linkedin.com/in/yshplsngh/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/yshplsngh}}  ~
+    \href{https://github.com/yshplsngh}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/yshplsngh}}
+    \vspace{-8pt}
+\end{center}
+
+
+
+%-----------EDUCATION-----------
+\section{Education}
+ \vspace{5pt}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {GLA University}{Sep. 2021 -- 2025}
+      {Bachelors of Technology in Computer Science}{Mathura, Uttar Pradesh}
+        \resumeSubheading
+      {Saraswati Vidya Mandir}{Apr. 2019 -- 2021}
+      {Intermediate in PCM}{Mathura, Uttar Pradesh}
+      
+  \resumeSubHeadingListEnd
+
+  
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+ \vspace{5pt}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Backend Development using SQL  Mongodb with Security Assurance}{Jun 2023 -- Jul 2023}
+      {Database Management Trainee}{Remote}
+      \resumeItemListStart
+        \resumeItem{Learned advanced MongoDB querying techniques and CRUD operations.}
+        \resumeItem{Designed and \textit{optimized databases querying} for multiple projects.}
+        \resumeItem{Implemented \textit{aggregation, filtering, and pagination} data querying techniques}
+        \resumeItem{Gained hands-on experience in database security \textit{best practices}, ensuring \textbf{data integrity and confidentiality} through role-based access control.}
+
+    \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-10pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+     \vspace{-1pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Testimonial} $|$ \emph{TypeScript, ReactJS, Redux, NodeJS, PostgreSQL, Prisma, Redis} $-$ 
+            \href{https://github.com/yshplsngh/Feedback-Testimonial}{\textbf{Code}} $|$ 
+            \href{https://testimonial.yshplsngh.in/}{\textbf{Live}}
+          }{Sep 2024}
+          \resumeItemListStart
+            \resumeItem{Developed a platform to \textit{collect, manage,} and showcase customer Testimonials and Reviews.}
+            \resumeItem{Facilitated seamless collection of client feedback and enabled its dynamic display on websites.}
+            \resumeItem{Supports feedback card customization like theme, speed, and color.}
+            \resumeItem{\textbf{Hosted} by automating backend deployment with \textit{Docker, GitHub Actions, and EC2.}}
+          \resumeItemListEnd
+          \vspace{-13pt}
+
+    
+      \resumeProjectHeading
+          {\textbf{Shop Mart} $|$ \emph{ReactJS, TypeScript, NodeJS, MongoDB, Docker} $-$ 
+            \href{https://github.com/yshplsngh/Shop-Mart}{\textbf{Code}} }{Jun 2024}
+          \resumeItemListStart
+            \resumeItem{Architected a scalable \textit{e-commerce} platform for seamless \textit{online shopping} experiences.}
+            \resumeItem{Established a robust \textbf{role-based access} control system for both \textit{customers and admins.}}
+            \resumeItem{Integrated \textbf{Biteship} and \textbf{Xendit} APIs for enhanced functionality.}
+            \resumeItem{Implemented real-time \textit{order tracking} and \textit{notifications} for users.}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+          
+        \resumeProjectHeading
+            {\textbf{Task Manager} $|$ \emph{TypeScript, ReactJS, Redux, NodeJS, PostgreSQL, Prisma, Docker} $-$ 
+            \href{https://github.com/yshplsngh/Task-Manager}{\textbf{Code}} $|$ 
+            \href{https://task.yshplsngh.in/}{\textbf{Live}}
+            }{Dec 2024}
+          \resumeItemListStart
+          \resumeItem{Developed a Task Management app to manage and track pending tasks efficiently.}
+          \resumeItem{Integrated \textit{Access token} and \textit{Refresh token} rotation using \textbf{JWT} for secure user access.}
+            \resumeItem{Made for learning purposes, for CI/CD pipelines and multi-stage Docker deployment.}
+            \resumeItem{Hosted on \textbf{Vercel} and an \textbf{EC2} VM.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+\vspace{-10pt}
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \vspace{5pt}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \item{
+     \textbf{Languages}{: Java, JavaScript, TypeScript, Python} \\
+     \vspace{4pt}
+     \textbf{Technologies/Frameworks}{: ReactJS, NodeJS, Redux, PostgreSQL, Prisma, Redis} \\
+     \vspace{4pt}
+     \textbf{Developer Tools}{: VS Code, JetBrains IDEs, Docker, Git, Linux, Shell} \\
+     \vspace{4pt}
+     \textbf{Other}{: CI/CD, Unit Testing (Jest), Object Oriented Programming (OOPs).} \\
+    }
+ \end{itemize}
+ \vspace{-10pt}
+
+
+
+%-----------INVOLVEMENT---------------
+\section{Volunteering / Achievement}
+ \vspace{5pt}
+    \resumeItemListStart
+        \resumeItem{Used multi-stage Docker builds to reduce image size by 65\% across multiple projects.}
+        \resumeItem{Contributed to community discussions and knowledge-sharing on platforms.}
+        \resumeItem{Solved 130+ DSA questions on a platform like LeetCode.}
+
+        
+
+
+                % \resumeItem{A technical writer at \href{https://dev.to/delta456}{\textbf{Dev.to}}, and also work as a moderator for \textbf{C}, \textbf{C++} and \textbf{Go} \textit{language tags}.}
+                % \resumeItem{Helps in \textit{organize events} in Delhi with \textbf{City JS India}, \textbf{PyDelhi Conference} and \textbf{FOSS United}.}
+                % \resumeItem{Given technical talks in many events and lightning talks at several conferences.}
+                % \resumeItem{Running a beginner-oriented article \textit{\href{https://github.com/Delta456/modern_cpp_series}{series}} on \textbf{C++}}
+                % \resumeItem{Part of NixOS (nixpkg-maintainers) and catppuccin team}
+                % \resumeItem{\textbf{CFP} Reviewer for \textbf{GopherCon USA} 2024}
+                % \resumeItem{Featured on \textbf{\href{https://www.youtube.com/watch?v=gs8FFp0rAbk}{GitHub Open Source Friday}} episode}
+    \resumeItemListEnd
+
+
+            
+\end{document}
